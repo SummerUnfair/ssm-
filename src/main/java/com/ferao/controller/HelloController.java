@@ -3,6 +3,7 @@ package com.ferao.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ferao.pojo.User;
+import com.ferao.pojo.requestBodyPO;
 import com.ferao.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -47,7 +48,7 @@ public class HelloController {
      * @return
      */
     @RequestMapping("/testRequestBody")
-    public String testRequestBody(@RequestBody String body){
+    public String testRequestBody(@RequestBody requestBodyPO body){
         System.out.println(body);
         return  "success";
     }

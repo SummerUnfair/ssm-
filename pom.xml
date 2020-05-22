@@ -9,6 +9,9 @@
   <artifactId>SpringMvcProTest</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+
+
+
   <build>
     <finalName>ssm</finalName>
     <resources>
@@ -95,6 +98,11 @@
       <version>${spring.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.54</version>
+    </dependency>
     <!-- MyBatis -->
     <dependency>
       <groupId>org.mybatis</groupId>

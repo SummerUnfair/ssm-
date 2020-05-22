@@ -10,9 +10,9 @@
 
 
 <%--请求参数绑定--%>
-<form action="testRequestBody" method="post" >
+<form action="/helloController/testRequestBody" method="post" >
 
-    姓名：<input type="text" name="username" /> <br/>
+    testRequestBody：<input type="text" name="username" /> <br/>
     密码：<input type="text" name="password" /> <br/>
     金额：<input type="text" name="money" /> <br/>
     <input type="submit" value="提交" />

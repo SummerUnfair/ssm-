@@ -10,7 +10,6 @@
     </welcome-file-list>
     <!--https://blog.csdn.net/vicroad2014/article/details/82384370-->
 
-
     <filter>
         <filter-name>characterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
